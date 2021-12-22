@@ -1,0 +1,66 @@
+.box {
+    width: 40%;
+    margin: 0 auto;
+    padding: 35px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+.clignote {
+color: orange;
+animation: clignote 1s linear infinite;
+font-size: 35px;
+}
+@keyframes clignote {
+    50% { opacity: 0; }
+    
+}
+.img-center{
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+body{
+    background-color: #ff7878;
+background-image: linear-gradient(315deg, #ff7878 0%, #ff0000 74%);  
+}
+.fondecran{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+}
+.hidden-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color:rgb(204,0,51);
+}
+.hidden-text:hover{
+color: black;
+}
+.img-bottom{
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+.hidden-text-top{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgb(154, 0, 0);
+}
+.hidden-text-top:hover{
+    color: black;
+}
+.first-hidden-text{
+    position: absolute;
+    color: rgb(153, 0, 51);
+    top: 0;
+    font-size: 20px;
+}
+.first-hidden-text:hover{
+    color: black;
+}
